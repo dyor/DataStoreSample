@@ -46,6 +46,8 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
+            api(libs.datastore)
+            api(libs.datastore.preferences)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
