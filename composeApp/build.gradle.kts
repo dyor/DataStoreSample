@@ -84,6 +84,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.ui.text.android)
     debugImplementation(compose.uiTooling)
 }
 

@@ -16,6 +16,7 @@ junit = "4.13.2"
 kotlin = "2.0.21"
 kotlinx-coroutines = "1.9.0"
 datastore = "1.1.1"
+uiTextAndroid = "1.7.5"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -33,6 +34,7 @@ androidx-lifecycle-runtime-compose = { group = "org.jetbrains.androidx.lifecycle
 kotlinx-coroutines-swing = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
 datastore ={module = "androidx.datastore:datastore", version.ref = "datastore"}
 datastore-preferences = {module = "androidx.datastore:datastore-preferences", version.ref = "datastore"}
+androidx-ui-text-android = { group = "androidx.compose.ui", name = "ui-text-android", version.ref = "uiTextAndroid" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
